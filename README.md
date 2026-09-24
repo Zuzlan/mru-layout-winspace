@@ -7,6 +7,8 @@ MRU Layout switches to the previously used layout first:
 1 ⇄ 2
 and only reaches the third layout when you continue cycling while holding Win.
 
+![MRU Layout](assets/mru-layout-demo.gif)
+
 ## Installation
 
 No installation required.

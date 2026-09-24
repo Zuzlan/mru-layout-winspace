@@ -1,5 +1,20 @@
-﻿MRU Layout 1.1.3
-Most-recently-used layout switching on Win + Space
+﻿# MRU Layout for Windows
+
+Linux-style keyboard layout switching for Windows.
+Instead of cycling through layouts in a fixed order:
+1 → 2 → 3 → 1 → 2 → 3
+MRU Layout switches to the previously used layout first:
+1 ⇄ 2
+and only reaches the third layout when you continue cycling while holding Win.
+
+## Installation
+
+No installation required.
+
+1. Download the latest ZIP from Releases.
+2. Extract it to a permanent folder.
+3. Run `Start.cmd`.
+4. Optionally enable `Run at startup` from the tray menu.
 
 START
 1. All files should be in same folder.
@@ -8,6 +23,14 @@ START
 3. A tray icon named "MRU Layout" will appear near the clock,
    possibly inside the hidden-icons area.
 4. Test it in Notepad first, then in your usual applications.
+
+## Privacy
+
+- No network access
+- No telemetry
+- No keystroke logging
+- No third-party dependencies
+- Source code is fully contained in MRU-Layout.ps1
 
 HOW IT WORKS
 Press Win + Space and then release both keys:
